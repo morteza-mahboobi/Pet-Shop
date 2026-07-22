@@ -1673,6 +1673,7 @@ User *User::login()
 void User::deleteAccount()
 {
     vector<string> warnings{
+        "",
         "** Warning **",
         "if you delete this account, this action cannot be undone",
         "by deleting this account, all information, transactions and balance will be lost",
@@ -2474,6 +2475,7 @@ Seller::Seller(int _id, string _name, string _username, string _password, string
 void Seller::deleteAccount()
 {
     vector<string> warnings{
+        "",
         "** Warning **",
         "if you delete this account, this action cannot be undone",
         "by deleting this account, all information, transactions, balance and products will be lost",
