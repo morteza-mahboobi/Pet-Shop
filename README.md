@@ -1,9 +1,5 @@
 # 🐾 Pet Shop Backend (Terminal-Based)
 
----
-
-# 🇺🇸 English
-
 ## 📌 About the Project
 
 A **Terminal-Based Pet Shop Backend** developed as a university project.
@@ -44,6 +40,31 @@ The application simulates a complete pet shop management system with user manage
 
 ---
 
+## 🔧 Common Features
+
+The following features are available for **Administrator**, **Seller**, and **Buyer**.
+
+### Profile
+
+- View profile
+- Edit profile information
+
+### Wallet
+
+- Deposit
+- Withdraw
+- Transfer
+- Transaction history
+
+### Session
+
+- **Logout**
+  - Sign out without closing the application
+- **Exit**
+  - Close the application without logging out
+
+---
+
 ## 👑 Administrator
 
 ### Products
@@ -52,7 +73,7 @@ The application simulates a complete pet shop management system with user manage
 - Approve pending products
 - Delete products
 - Apply discounts:
-  - All product
+  - All products
   - Single product
   - Multiple selected products
   - Entire category
@@ -69,31 +90,12 @@ The application simulates a complete pet shop management system with user manage
 - Delete users
 - Send gifts
 
-### Profile
-
-- View profile
-- Edit profile information
-
-### Wallet
-
-- Deposit
-- Withdraw
-- Transfer
-- Transaction history
-
 ### Account
 
 - Delete account
   - User information
   - Wallet balance
   - Transactions
-
-### Session
-
-- **Logout**
-  - Sign out without closing the application
-- **Exit**
-  - Close the application without logging out
 
 ---
 
@@ -113,18 +115,6 @@ The application simulates a complete pet shop management system with user manage
 - View sales history
 - View sold product details
 
-### Profile
-
-- View profile
-- Edit profile information
-
-### Wallet
-
-- Deposit
-- Withdraw
-- Transfer
-- Transaction history
-
 ### Account
 
 - Delete account
@@ -132,13 +122,6 @@ The application simulates a complete pet shop management system with user manage
   - Products
   - Wallet balance
   - Transactions
-
-### Session
-
-- **Logout**
-  - Sign out without closing the application
-- **Exit**
-  - Close the application without logging out
 
 ---
 
@@ -156,18 +139,6 @@ The application simulates a complete pet shop management system with user manage
 - View shopping history
 - View purchased product details
 
-### Profile
-
-- View profile
-- Edit profile information
-
-### Wallet
-
-- Deposit
-- Withdraw
-- Transfer
-- Transaction history
-
 ### Account
 
 - Delete account
@@ -175,16 +146,9 @@ The application simulates a complete pet shop management system with user manage
   - Wallet balance
   - Transactions
 
-### Session
-
-- **Logout**
-  - Sign out without closing the application
-- **Exit**
-  - Close the application without logging out
-
 ---
 
-## 🧪 Test Accounts
+## 🧪 Multiple accounts for testing the project
 
 | Type | Username | Password | Name |
 |------|----------|----------|------|
@@ -195,8 +159,6 @@ The application simulates a complete pet shop management system with user manage
 > Additional user accounts can be viewed from the **Admin Panel**.
 
 ---
-
-# 🇮🇷 فارسی
 
 ## 📌 معرفی پروژه
 
@@ -238,6 +200,31 @@ The application simulates a complete pet shop management system with user manage
 
 ---
 
+## 🔧 امکانات مشترک
+
+امکانات زیر برای **مدیر**، **فروشنده** و **خریدار** مشترک هستند.
+
+### پروفایل
+
+- مشاهده پروفایل
+- ویرایش اطلاعات
+
+### کیف پول
+
+- شارژ
+- برداشت
+- انتقال
+- تاریخچه تراکنش‌ها
+
+### نشست
+
+- **لاگ اوت**
+  - خروج از حساب بدون بستن برنامه
+- **خروج**
+  - بستن برنامه بدون خروج از حساب
+
+---
+
 ## 👑 مدیر
 
 ### محصولات
@@ -253,7 +240,7 @@ The application simulates a complete pet shop management system with user manage
 
 ### فروش
 
-- مشاهده تاریخچه همه فروش ها
+- مشاهده تاریخچه همه فروش‌ها
 - مشاهده اطلاعات محصولات فروخته‌شده
 
 ### کاربران
@@ -263,31 +250,12 @@ The application simulates a complete pet shop management system with user manage
 - حذف کاربران
 - ارسال هدیه
 
-### پروفایل
-
-- مشاهده پروفایل
-- ویرایش اطلاعات
-
-### کیف پول
-
-- شارژ
-- برداشت
-- انتقال
-- تاریخچه تراکنش‌ها
-
 ### حساب کاربری
 
 - حذف حساب همراه با:
   - اطلاعات کاربر
   - موجودی کیف پول
   - تراکنش‌ها
-
-### نشست
-
-- **Logout**
-  - خروج از حساب بدون بستن برنامه
-- **Exit**
-  - بستن برنامه بدون خروج از حساب
 
 ---
 
@@ -297,7 +265,7 @@ The application simulates a complete pet shop management system with user manage
 
 - مشاهده محصولات
 - افزودن محصول
-  - وضعیت محصول اول به حالت **Pending** قرار میگیرد
+  - وضعیت محصول ابتدا به حالت **Pending** قرار می‌گیرد
 - ویرایش محصول
   - وضعیت محصول به **Pending** تغییر می‌کند
 - حذف محصول
@@ -307,18 +275,6 @@ The application simulates a complete pet shop management system with user manage
 - مشاهده تاریخچه فروش
 - مشاهده اطلاعات محصولات فروخته‌شده
 
-### پروفایل
-
-- مشاهده پروفایل
-- ویرایش اطلاعات
-
-### کیف پول
-
-- شارژ
-- برداشت
-- انتقال
-- تاریخچه تراکنش‌ها
-
 ### حساب کاربری
 
 - حذف حساب همراه با:
@@ -326,13 +282,6 @@ The application simulates a complete pet shop management system with user manage
   - محصولات
   - موجودی کیف پول
   - تراکنش‌ها
-
-### نشست
-
-- **Logout**
-  - خروج از حساب بدون بستن برنامه
-- **Exit**
-  - بستن برنامه بدون خروج از حساب
 
 ---
 
@@ -350,18 +299,6 @@ The application simulates a complete pet shop management system with user manage
 - مشاهده تاریخچه خرید
 - مشاهده اطلاعات محصولات خریداری‌شده
 
-### پروفایل
-
-- مشاهده پروفایل
-- ویرایش اطلاعات
-
-### کیف پول
-
-- شارژ
-- برداشت
-- انتقال
-- تاریخچه تراکنش‌ها
-
 ### حساب کاربری
 
 - حذف حساب همراه با:
@@ -369,16 +306,9 @@ The application simulates a complete pet shop management system with user manage
   - موجودی کیف پول
   - تراکنش‌ها
 
-### نشست
-
-- **Logout**
-  - خروج از حساب بدون بستن برنامه
-- **Exit**
-  - بستن برنامه بدون خروج از حساب
-
 ---
 
-## 🧪 اطلاعات تست پروژه
+## 🧪 چند اکانت برای تست پروژه
 
 | نوع کاربری | نام کاربری | رمز عبور | نام |
 |------------|------------|----------|-----|

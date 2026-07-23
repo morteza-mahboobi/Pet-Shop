@@ -97,7 +97,7 @@ int main()
 
             buttons.clear();
 
-            PutMidlle(vector<string>{guidText1, guidText2, guidText3}, Horizontal, CursorPlace::BeginningNextLine);
+            PutMidlle(vector<string>{guidText1, guidText2, guidText3,"","Developed by Morteza Mahboobi"}, Horizontal, CursorPlace::BeginningNextLine);
 
             int i;
             int key;
@@ -162,7 +162,7 @@ int main()
 
                     buttons.clear();
 
-                    PutMidlle(vector<string>{guidText1, guidText2, guidText3}, Horizontal, CursorPlace::BeginningNextLine);
+                    PutMidlle(vector<string>{guidText1, guidText2, guidText3,"","Developed by Morteza Mahboobi"}, Horizontal, CursorPlace::BeginningNextLine);
                 }
             } while (!(key == ENTER_KEY && isTheChoiceChanged));
 
