@@ -6,15 +6,20 @@
 
 ## 📌 About the Project
 
-A **Terminal-Based Pet Shop Backend** developed as a university project. The application runs entirely in the terminal and simulates a pet shop management system with multiple user roles, wallet management, products, transactions, and an interactive terminal interface.
+A **Terminal-Based Pet Shop Backend** developed as a university project.
+
+This project combines a backend implementation with a responsive **Terminal User Interface (TUI)**. While its primary focus is backend development, it also includes a custom terminal-based frontend featuring interactive menus, animations, keyboard navigation, and responsive layouts that adapt to the current console size.
+
+The application simulates a complete pet shop management system with user management, products, wallets, transactions, and an interactive terminal interface.
 
 ---
 
 ## ✨ Features
 
-- Interactive terminal user interface
-- Professional graphics and animations (recommended in fullscreen mode)
-- Full keyboard navigation:
+- Interactive terminal interface
+- Professional terminal graphics & animations
+- Responsive layout based on the current console size (recommended in **Fullscreen** mode)
+- Full keyboard navigation
   - ↑ ↓ ← →
   - Enter
   - Tab
@@ -41,46 +46,153 @@ A **Terminal-Based Pet Shop Backend** developed as a university project. The app
 
 ## 👑 Administrator
 
+### Products
+
 - Show all products
 - Approve pending products
 - Delete products
-- Apply discounts (single product, multiple products, or entire category)
-- View complete sales history with product details
-- Manage users (view, edit, delete, send gifts)
-- View and edit profile
-- Wallet management (deposit, withdraw, transfer, transaction history)
-- Delete account (removes user information, wallet balance, and transaction history)
-- **Logout:** Sign out without closing the application
-- **Exit:** Close the application without logging out
+- Apply discounts:
+  - All product
+  - Single product
+  - Multiple selected products
+  - Entire category
+
+### Sales
+
+- View complete sales history
+- View sold product details
+
+### Users
+
+- View all users
+- Edit user information
+- Delete users
+- Send gifts
+
+### Profile
+
+- View profile
+- Edit profile information
+
+### Wallet
+
+- Deposit
+- Withdraw
+- Transfer
+- Transaction history
+
+### Account
+
+- Delete account
+  - User information
+  - Wallet balance
+  - Transactions
+
+### Session
+
+- **Logout**
+  - Sign out without closing the application
+- **Exit**
+  - Close the application without logging out
 
 ---
 
 ## 🛍 Seller
 
-- View all personal products
-- Add, edit, and delete products
-- Edited products become **Pending** until approved
-- View sales history with product details
-- View and edit profile
-- Wallet management (deposit, withdraw, transfer, transaction history)
-- Delete account (removes user information, products, wallet balance, and transaction history)
-- **Logout:** Sign out without closing the application
-- **Exit:** Close the application without logging out
+### Products
+
+- View personal products
+- Add products
+  - The product is initially set to **Pending** status
+- Edit products
+  - Edited products become **Pending**
+- Delete products
+
+### Sales
+
+- View sales history
+- View sold product details
+
+### Profile
+
+- View profile
+- Edit profile information
+
+### Wallet
+
+- Deposit
+- Withdraw
+- Transfer
+- Transaction history
+
+### Account
+
+- Delete account
+  - User information
+  - Products
+  - Wallet balance
+  - Transactions
+
+### Session
+
+- **Logout**
+  - Sign out without closing the application
+- **Exit**
+  - Close the application without logging out
 
 ---
 
 ## 🛒 Buyer
 
+### Products
+
 - View approved products
 - Purchase products
 - Rate products after purchase
 - Advanced product search
-- View shopping history with product details
-- View and edit profile
-- Wallet management (deposit, withdraw, transfer, transaction history)
-- Delete account (removes user information, wallet balance, and transaction history)
-- **Logout:** Sign out without closing the application
-- **Exit:** Close the application without logging out
+
+### Shopping
+
+- View shopping history
+- View purchased product details
+
+### Profile
+
+- View profile
+- Edit profile information
+
+### Wallet
+
+- Deposit
+- Withdraw
+- Transfer
+- Transaction history
+
+### Account
+
+- Delete account
+  - User information
+  - Wallet balance
+  - Transactions
+
+### Session
+
+- **Logout**
+  - Sign out without closing the application
+- **Exit**
+  - Close the application without logging out
+
+---
+
+## 🧪 Test Accounts
+
+| Type | Username | Password | Name |
+|------|----------|----------|------|
+| Admin | amir.hosseini | Amir@2026 | Amir Hosseini |
+| Seller | ali.moradi | Ali@2026 | Ali Moradi |
+| Seller | sina.rahimi | Sina@2026 | Sina Rahimi |
+
+> Additional user accounts can be viewed from the **Admin Panel**.
 
 ---
 
@@ -88,15 +200,20 @@ A **Terminal-Based Pet Shop Backend** developed as a university project. The app
 
 ## 📌 معرفی پروژه
 
-این پروژه یک **بک‌اند فروشگاه حیوانات خانگی** با **رابط کاربری مبتنی بر ترمینال (TUI)** است که به عنوان پروژه دانشگاهی توسعه یافته و به صورت کامل در محیط ترمینال اجرا می‌شود. این سیستم امکاناتی مانند مدیریت کاربران، محصولات، کیف پول، تراکنش‌ها و رابط کاربری تعاملی را فراهم می‌کند.
+این پروژه یک **بک‌اند فروشگاه حیوانات خانگی** با **رابط کاربری مبتنی بر ترمینال (TUI)** است که به عنوان یک پروژه دانشگاهی توسعه داده شده است.
+
+اگرچه تمرکز اصلی پروژه بر توسعه بک‌اند بوده، اما علاوه بر پیاده‌سازی کامل منطق برنامه، یک رابط کاربری مبتنی بر ترمینال نیز برای آن طراحی و پیاده‌سازی شده است. این رابط کاربری شامل منوهای تعاملی، انیمیشن، کنترل کامل با صفحه‌کلید و نمایش واکنش‌گرا نسبت به اندازه پنجره کنسول است و تجربه‌ای شبیه به یک فرانت‌اند را در محیط ترمینال ارائه می‌دهد.
+
+این پروژه یک سیستم کامل مدیریت فروشگاه حیوانات را با امکاناتی مانند مدیریت کاربران، محصولات، کیف پول، تراکنش‌ها و سایر قابلیت‌های موردنیاز شبیه‌سازی می‌کند.
 
 ---
 
 ## ✨ امکانات پروژه
 
 - رابط کاربری تعاملی در ترمینال
-- گرافیک و انیمیشن حرفه‌ای (پیشنهاد می‌شود در حالت Fullscreen اجرا شود)
-- کنترل کامل با صفحه‌کلید:
+- گرافیک و انیمیشن حرفه‌ای
+- صفحه کاملاً **Responsive** نسبت به اندازه پنجره کنسول (پیشنهاد می‌شود در حالت **Fullscreen** اجرا شود)
+- کنترل کامل با صفحه‌کلید
   - ↑ ↓ ← →
   - Enter
   - Tab
@@ -123,43 +240,150 @@ A **Terminal-Based Pet Shop Backend** developed as a university project. The app
 
 ## 👑 مدیر
 
+### محصولات
+
 - مشاهده همه محصولات
 - تایید محصولات در انتظار بررسی
 - حذف محصولات
-- اعمال تخفیف روی یک محصول، چند محصول یا یک دسته‌بندی
-- مشاهده تاریخچه کامل فروش همراه با اطلاعات محصولات
-- مدیریت کاربران (مشاهده، ویرایش، حذف و ارسال هدیه)
-- مشاهده و ویرایش پروفایل
-- مدیریت کیف پول (شارژ، برداشت، انتقال و تاریخچه تراکنش‌ها)
-- حذف حساب همراه با اطلاعات، موجودی و تراکنش‌ها
-- **Logout:** خروج از حساب بدون بستن برنامه
-- **Exit:** بستن برنامه بدون خروج از حساب
+- اعمال تخفیف:
+  - روی همه محصولات
+  - روی یک محصول
+  - روی چند محصول
+  - روی یک دسته‌بندی خاص
+
+### فروش
+
+- مشاهده تاریخچه همه فروش ها
+- مشاهده اطلاعات محصولات فروخته‌شده
+
+### کاربران
+
+- مشاهده همه کاربران
+- ویرایش اطلاعات
+- حذف کاربران
+- ارسال هدیه
+
+### پروفایل
+
+- مشاهده پروفایل
+- ویرایش اطلاعات
+
+### کیف پول
+
+- شارژ
+- برداشت
+- انتقال
+- تاریخچه تراکنش‌ها
+
+### حساب کاربری
+
+- حذف حساب همراه با:
+  - اطلاعات کاربر
+  - موجودی کیف پول
+  - تراکنش‌ها
+
+### نشست
+
+- **Logout**
+  - خروج از حساب بدون بستن برنامه
+- **Exit**
+  - بستن برنامه بدون خروج از حساب
 
 ---
 
 ## 🛍 فروشنده
 
-- مشاهده همه محصولات خود
-- افزودن، ویرایش و حذف محصولات
-- تغییر وضعیت محصول ویرایش‌شده به **Pending**
-- مشاهده تاریخچه فروش همراه با اطلاعات محصولات
-- مشاهده و ویرایش پروفایل
-- مدیریت کیف پول (شارژ، برداشت، انتقال و تاریخچه تراکنش‌ها)
-- حذف حساب همراه با اطلاعات، محصولات، موجودی و تراکنش‌ها
-- **Logout:** خروج از حساب بدون بستن برنامه
-- **Exit:** بستن برنامه بدون خروج از حساب
+### محصولات
+
+- مشاهده محصولات
+- افزودن محصول
+  - وضعیت محصول اول به حالت **Pending** قرار میگیرد
+- ویرایش محصول
+  - وضعیت محصول به **Pending** تغییر می‌کند
+- حذف محصول
+
+### فروش
+
+- مشاهده تاریخچه فروش
+- مشاهده اطلاعات محصولات فروخته‌شده
+
+### پروفایل
+
+- مشاهده پروفایل
+- ویرایش اطلاعات
+
+### کیف پول
+
+- شارژ
+- برداشت
+- انتقال
+- تاریخچه تراکنش‌ها
+
+### حساب کاربری
+
+- حذف حساب همراه با:
+  - اطلاعات کاربر
+  - محصولات
+  - موجودی کیف پول
+  - تراکنش‌ها
+
+### نشست
+
+- **Logout**
+  - خروج از حساب بدون بستن برنامه
+- **Exit**
+  - بستن برنامه بدون خروج از حساب
 
 ---
 
 ## 🛒 خریدار
 
+### محصولات
+
 - مشاهده محصولات تاییدشده
-- خرید محصولات
+- خرید محصول
 - ثبت امتیاز پس از خرید
-- جستجوی پیشرفته محصولات
-- مشاهده تاریخچه خرید همراه با اطلاعات محصولات
-- مشاهده و ویرایش پروفایل
-- مدیریت کیف پول (شارژ، برداشت، انتقال و تاریخچه تراکنش‌ها)
-- حذف حساب همراه با اطلاعات، موجودی و تراکنش‌ها
-- **Logout:** خروج از حساب بدون بستن برنامه
-- **Exit:** بستن برنامه بدون خروج از حساب
+- جستجوی پیشرفته
+
+### خریدها
+
+- مشاهده تاریخچه خرید
+- مشاهده اطلاعات محصولات خریداری‌شده
+
+### پروفایل
+
+- مشاهده پروفایل
+- ویرایش اطلاعات
+
+### کیف پول
+
+- شارژ
+- برداشت
+- انتقال
+- تاریخچه تراکنش‌ها
+
+### حساب کاربری
+
+- حذف حساب همراه با:
+  - اطلاعات کاربر
+  - موجودی کیف پول
+  - تراکنش‌ها
+
+### نشست
+
+- **Logout**
+  - خروج از حساب بدون بستن برنامه
+- **Exit**
+  - بستن برنامه بدون خروج از حساب
+
+---
+
+## 🧪 اطلاعات تست پروژه
+
+| نوع کاربری | نام کاربری | رمز عبور | نام |
+|------------|------------|----------|-----|
+| مدیر | amir.hosseini | Amir@2026 | Amir Hosseini |
+| فروشنده | ali.moradi | Ali@2026 | Ali Moradi |
+| فروشنده | sina.rahimi | Sina@2026 | Sina Rahimi |
+
+> اطلاعات سایر کاربران را می‌توانید از طریق **پنل مدیر (Admin Panel)** مشاهده کرده و برای تست پروژه از آن‌ها استفاده کنید.
