@@ -400,7 +400,6 @@ void PrintTransaction(vector<string> finalText)
         cout << x;
         cout << endl;
     }
-    cout << endl;
 }
 
 //==========================================================

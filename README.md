@@ -155,6 +155,7 @@ The following features are available for **Administrator**, **Seller**, and **Bu
 | Admin | amir.hosseini | Amir@2026 | Amir Hosseini |
 | Seller | ali.moradi | Ali@2026 | Ali Moradi |
 | Seller | sina.rahimi | Sina@2026 | Sina Rahimi |
+| Buyer | Buyer | Buyer | Main Buyer |
 
 > Additional user accounts can be viewed from the **Admin Panel**.
 
@@ -315,5 +316,6 @@ The following features are available for **Administrator**, **Seller**, and **Bu
 | مدیر | amir.hosseini | Amir@2026 | Amir Hosseini |
 | فروشنده | ali.moradi | Ali@2026 | Ali Moradi |
 | فروشنده | sina.rahimi | Sina@2026 | Sina Rahimi |
+| خریدار | Buyer | Buyer | Main Buyer |
 
 > اطلاعات سایر کاربران را می‌توانید از طریق **پنل مدیر (Admin Panel)** مشاهده کرده و برای تست پروژه از آن‌ها استفاده کنید.
