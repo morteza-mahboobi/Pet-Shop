@@ -620,6 +620,8 @@ int main()
                     case 9:
                     {
                         admin.deleteAccount();
+                        fstream file(PathSavedAccount, ios::out | ios::binary);
+                        file.close();
                         break;
                     }
                     case 10:
@@ -637,7 +639,7 @@ int main()
                     default:
                         break;
                     }
-                } while (!(choice == 10 || choice == 11));
+                } while (!(choice == 9 || choice == 10 || choice == 11));
             }
             else if (tempUser->getType() == UserType::Seller)
             {
@@ -711,6 +713,8 @@ int main()
                     case 8:
                     {
                         seller.deleteAccount();
+                        fstream file(PathSavedAccount, ios::out | ios::binary);
+                        file.close();
                         break;
                     }
                     case 9:
@@ -728,7 +732,7 @@ int main()
                     default:
                         break;
                     }
-                } while (!(choice == 9 || choice == 10));
+                } while (!(choice == 8 || choice == 9 || choice == 10));
             }
             else if (tempUser->getType() == UserType::Buyer)
             {
@@ -922,6 +926,8 @@ int main()
                     case 7:
                     {
                         buyer.deleteAccount();
+                        fstream file(PathSavedAccount, ios::out | ios::binary);
+                        file.close();
                         break;
                     }
                     case 8:
@@ -939,7 +945,7 @@ int main()
                     default:
                         break;
                     }
-                } while (!(choice == 8 || choice == 9));
+                } while (!(choice == 7 || choice == 8 || choice == 9));
             }
             system("cls");
             delete tempUser;
