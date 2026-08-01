@@ -97,7 +97,7 @@ int main()
 
             buttons.clear();
 
-            PutMidlle(vector<string>{guidText1, guidText2, guidText3,"","Developed by Morteza Mahboobi"}, Horizontal, CursorPlace::BeginningNextLine);
+            PutMidlle(vector<string>{guidText1, guidText2, guidText3, "", "Developed by Morteza Mahboobi"}, Horizontal, CursorPlace::BeginningNextLine);
 
             int i;
             int key;
@@ -162,7 +162,7 @@ int main()
 
                     buttons.clear();
 
-                    PutMidlle(vector<string>{guidText1, guidText2, guidText3,"","Developed by Morteza Mahboobi"}, Horizontal, CursorPlace::BeginningNextLine);
+                    PutMidlle(vector<string>{guidText1, guidText2, guidText3, "", "Developed by Morteza Mahboobi"}, Horizontal, CursorPlace::BeginningNextLine);
                 }
             } while (!(key == ENTER_KEY && isTheChoiceChanged));
 
@@ -1156,6 +1156,7 @@ void Account::transfer(int senderId, int recipientId = -1)
                 User *tmpUser = User::loadInfoOneUser(senderId, 2);
                 tmpUser->setBalance(balance - amount);
                 setBalance(balance - amount);
+                senderInfo.amount = amount;
                 senderInfo.newBalance = getBalance();
                 senderInfo.status = TransactionStatus::Success;
                 updateThisTransaction(senderInfo);
@@ -1163,6 +1164,7 @@ void Account::transfer(int senderId, int recipientId = -1)
                 tmpUser->updateInfoThisUserInBinaryFile();
 
                 recipient->setBalance(recipient->getBalance() + amount);
+                recipientInfo.amount = amount;
                 recipientInfo.newBalance = recipient->getBalance();
                 recipientInfo.status = TransactionStatus::Success;
                 updateThisTransaction(recipientInfo);
