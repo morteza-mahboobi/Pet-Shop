@@ -10,6 +10,25 @@ The application simulates a complete pet shop management system with user manage
 
 ---
 
+## 🚀 Installation and Running
+
+### Easy Version (Pre-built)
+
+1. Download the complete project folder.
+2. Run `main.exe` to start the application.
+3. To view all transactions, run `Show All Trans.exe` located in the `some tools` folder.
+
+### Advanced Version (Build from Source)
+
+1. Download the complete project folder.
+2. Build `main.cpp` to compile the application.
+3. Run the generated `main.exe` file.
+4. To view all transactions:
+   - Build `Show All Trans.cpp` located in the `some tools` folder.
+   - Run the generated `Show All Trans.exe` file.
+
+---
+
 ## ✨ Features
 
 - Interactive terminal interface
@@ -168,6 +187,25 @@ The following features are available for **Administrator**, **Seller**, and **Bu
 اگرچه تمرکز اصلی پروژه بر توسعه بک‌اند بوده، اما علاوه بر پیاده‌سازی کامل منطق برنامه، یک رابط کاربری مبتنی بر ترمینال نیز برای آن طراحی و پیاده‌سازی شده است. این رابط کاربری شامل منوهای تعاملی، انیمیشن، کنترل کامل با صفحه‌کلید و نمایش واکنش‌گرا نسبت به اندازه پنجره کنسول است و تجربه‌ای شبیه به یک فرانت‌اند را در محیط ترمینال ارائه می‌دهد.
 
 این پروژه یک سیستم کامل مدیریت فروشگاه حیوانات را با امکاناتی مانند مدیریت کاربران، محصولات، کیف پول، تراکنش‌ها و سایر قابلیت‌های موردنیاز شبیه‌سازی می‌کند.
+
+---
+
+## 🚀 نصب و اجرای پروژه
+
+### نسخه آسان (نسخه آماده اجرا)
+
+1. کل پوشه پروژه را دانلود کنید.
+2. فایل `main.exe` را برای اجرای برنامه اجرا کنید.
+3. برای مشاهده تمام تراکنش‌ها، فایل `Show All Trans.exe` موجود در پوشه `some tools` را اجرا کنید.
+
+### نسخه حرفه‌ای‌تر (بیلد از سورس)
+
+1. کل پوشه پروژه را دانلود کنید.
+2. فایل `main.cpp` را بیلد کنید تا برنامه ساخته شود.
+3. فایل ساخته‌شده `main.exe` را اجرا کنید.
+4. برای مشاهده تمام تراکنش‌ها:
+   - فایل `Show All Trans.cpp` موجود در پوشه `some tools` را بیلد کنید.
+   - فایل ساخته‌شده `Show All Trans.exe` را اجرا کنید.
 
 ---
 
