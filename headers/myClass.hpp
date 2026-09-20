@@ -5,6 +5,11 @@
 using std::string;
 using std::vector;
 
+#define PathUser "file/User.dat"
+#define PathPet "file/Pet.dat"
+#define PathTransaction "file/Transaction.dat"
+#define PathSavedAccount "file/SavedAccount.dat"
+
 //=========================
 // enum & struct
 //=========================

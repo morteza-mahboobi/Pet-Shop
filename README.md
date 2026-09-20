@@ -15,17 +15,79 @@ The application simulates a complete pet shop management system with user manage
 ### Easy Version (Pre-built)
 
 1. Download the complete project folder.
-2. Run `main.exe` to start the application.
+2. Run `program.exe` to start the application.
 3. To view all transactions, run `Show All Trans.exe` located in the `some tools` folder.
 
 ### Advanced Version (Build from Source)
 
 1. Download the complete project folder.
-2. Build `main.cpp` to compile the application.
-3. Run the generated `main.exe` file.
+2. Build `program.cpp` to compile the application with these command.
+```shell   
+g++ -c main.cpp
+g++ -c headers\graphic_utilities.cpp -o headers\graphic_utilities.o
+g++ -c headers\myClass.cpp -o headers\myClass.o
+g++ main.o headers\graphic_utilities.o headers\myClass.o -o program.exe
+```
+3. Run the generated `program.exe` file.
 4. To view all transactions:
    - Build `Show All Trans.cpp` located in the `some tools` folder.
    - Run the generated `Show All Trans.exe` file.
+
+---
+
+## Project Structure
+
+```text
+project/
+├── main.cpp
+│   └── Program entry point
+│
+├── some tools/
+│   ├── get Width & height.cpp
+│   │   └── A utility program to get console width and height,
+│   │       used for responsive console UI design
+│   │
+│   └── Show All Trans.cpp
+│       └── A testing tool to display all transactions
+│           for debugging and verification
+│
+├── headers/
+│   ├── graphic_utilities.hpp
+│   │   └── Declaration of console graphic utilities
+│   │
+│   ├── graphic_utilities.cpp
+│   │   └── Implementation of console graphic utilities
+│   │
+│   ├── myClass.hpp
+│   │   └── Declaration of main project classes
+│   │
+│   ├── myClass.cpp
+│   │   └── Implementation of main project classes
+│   │
+│   ├── myException.hpp
+│   │   └── Custom exception definitions
+│   │
+│   └── printEnum.hpp
+│       └── Utilities for printing and handling enum values
+│
+└── file/
+    └── Stores program data
+    │
+    ├── ids.dat
+    │   └── Stores the latest generated ID
+    │
+    ├── Pet.dat
+    │   └── Stores registered pet information
+    │
+    ├── User.dat
+    │   └── Stores registered user information
+    │
+    ├── Transaction.dat
+    │   └── Stores transaction records
+    │
+    └── SavedAccount.dat
+        └── Stores the last logged-in account information
+```
 
 ---
 
@@ -195,17 +257,79 @@ The following features are available for **Administrator**, **Seller**, and **Bu
 ### نسخه آسان (نسخه آماده اجرا)
 
 1. کل پوشه پروژه را دانلود کنید.
-2. فایل `main.exe` را برای اجرای برنامه اجرا کنید.
+2. فایل `program.exe` را برای اجرای برنامه اجرا کنید.
 3. برای مشاهده تمام تراکنش‌ها، فایل `Show All Trans.exe` موجود در پوشه `some tools` را اجرا کنید.
 
 ### نسخه حرفه‌ای‌تر (بیلد از سورس)
 
 1. کل پوشه پروژه را دانلود کنید.
-2. فایل `main.cpp` را بیلد کنید تا برنامه ساخته شود.
-3. فایل ساخته‌شده `main.exe` را اجرا کنید.
+2. فایل `program.cpp` را به کمک این دستورات بسازید.
+```shell   
+g++ -c main.cpp
+g++ -c headers\graphic_utilities.cpp -o headers\graphic_utilities.o
+g++ -c headers\myClass.cpp -o headers\myClass.o
+g++ main.o headers\graphic_utilities.o headers\myClass.o -o program.exe
+```
+3. فایل ساخته‌شده `program.exe` را اجرا کنید.
 4. برای مشاهده تمام تراکنش‌ها:
    - فایل `Show All Trans.cpp` موجود در پوشه `some tools` را بیلد کنید.
    - فایل ساخته‌شده `Show All Trans.exe` را اجرا کنید.
+
+---
+
+## ساختار پروژه
+
+```text
+project/
+├── main.cpp
+│   └── نقطه شروع اجرای برنامه
+│
+├── some tools/
+│   ├── get Width & height.cpp
+│   │   └── یک ابزار کمکی برای دریافت طول و عرض کنسول،
+│   │       جهت طراحی رابط کاربری واکنش‌گرا (Responsive)
+│   │
+│   └── Show All Trans.cpp
+│       └── یک ابزار تست برای نمایش تمام تراکنش‌ها
+│           جهت بررسی و دیباگ برنامه
+│
+├── headers/
+│   ├── graphic_utilities.hpp
+│   │   └── دکلریشن قابلیت‌ها و توابع گرافیکی کنسول
+│   │
+│   ├── graphic_utilities.cpp
+│   │   └── پیاده‌سازی قابلیت‌ها و توابع گرافیکی کنسول
+│   │
+│   ├── myClass.hpp
+│   │   └── دکلریشن کلاس‌های اصلی پروژه
+│   │
+│   ├── myClass.cpp
+│   │   └── پیاده‌سازی کلاس‌های اصلی پروژه
+│   │
+│   ├── myException.hpp
+│   │   └── تعریف Exception های اختصاصی پروژه
+│   │
+│   └── printEnum.hpp
+│       └── ایجاد قابلیت چاپ و مدیریت مقادیر Enum
+│
+└── file/
+    └── شامل اطلاعات ذخیره‌شده برنامه
+    │
+    ├── ids.dat
+    │   └── ذخیره آخرین ID استفاده‌شده
+    │
+    ├── Pet.dat
+    │   └── اطلاعات پت‌های ثبت‌شده
+    │
+    ├── User.dat
+    │   └── اطلاعات کاربران ثبت‌نام‌شده
+    │
+    ├── Transaction.dat
+    │   └── اطلاعات تراکنش‌ها
+    │
+    └── SavedAccount.dat
+        └── ذخیره آخرین اکانت واردشده به برنامه
+```
 
 ---
 
